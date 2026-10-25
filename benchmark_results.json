@@ -1,0 +1,29 @@
+{
+  "dataset_size": 25,
+  "baseline": {
+    "total_samples": 25,
+    "faithfulness": 66.0,
+    "context_recall": 88.8,
+    "hallucination_rate": 20.0,
+    "citation_accuracy": 72.0,
+    "avg_latency_ms": 4.8,
+    "avg_tokens": 683.3,
+    "total_cost_usd": 0.001659
+  },
+  "optimized": {
+    "total_samples": 25,
+    "faithfulness": 82.0,
+    "context_recall": 98.4,
+    "hallucination_rate": 4.0,
+    "citation_accuracy": 76.0,
+    "avg_latency_ms": 4.2,
+    "avg_tokens": 770.4,
+    "total_cost_usd": 0.001836
+  },
+  "improvement": {
+    "faithfulness_delta": 16.0,
+    "context_recall_delta": 9.6,
+    "hallucination_rate_reduction": 16.0,
+    "citation_accuracy_delta": 4.0
+  }
+}

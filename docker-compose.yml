@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  aml-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aml-knowledge-assistant
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - LLM_MODEL=gemini-2.5-flash
+      - EMBEDDING_MODEL=models/text-embedding-004
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+    volumes:
+      - chroma_data:/app/chroma_db
+    restart: unless-stopped
+
+volumes:
+  chroma_data:

@@ -1,0 +1,80 @@
+{
+  "sanctions_list": [
+    {
+      "id": "SANC-001",
+      "name": "Viktor Petrov",
+      "aliases": ["Victor Petrov", "V. Petrov"],
+      "type": "Individual",
+      "program": "OFAC-SDN-RUSSIA-EO14024",
+      "nationality": "Russia",
+      "designation_date": "2023-04-12",
+      "reason": "Executive director of sanctioned defence logistics conglomerate facilitating procurement of dual-use electronics."
+    },
+    {
+      "id": "SANC-002",
+      "name": "Global Horizon Shipping Ltd",
+      "aliases": ["Global Horizon Maritime", "GH Shipping"],
+      "type": "Entity",
+      "program": "UN-DPRK-SANCTIONS",
+      "jurisdiction": "Marshall Islands",
+      "designation_date": "2022-09-18",
+      "reason": "Vessel ownership and management entity engaged in ship-to-ship illicit petroleum transfers violating UN Security Council resolutions."
+    },
+    {
+      "id": "SANC-003",
+      "name": "Al-Badr Financial Services",
+      "aliases": ["Badr Exchange", "Al-Badr Hawala"],
+      "type": "Entity",
+      "program": "EU-GLOBAL-TERRORISM-SANCTIONS",
+      "jurisdiction": "Yemen",
+      "designation_date": "2021-11-05",
+      "reason": "Unregistered money transmission service transferring funds on behalf of designated regional militia groups."
+    },
+    {
+      "id": "SANC-004",
+      "name": "Elena Rostova",
+      "aliases": ["Jelena Rostova"],
+      "type": "Individual",
+      "program": "UK-GLOBAL-ANTI-CORRUPTION",
+      "nationality": "Cyprus",
+      "designation_date": "2024-01-15",
+      "reason": "Nominee director acting on behalf of kleptocratic networks misappropriating sovereign state assets."
+    }
+  ],
+  "pep_list": [
+    {
+      "id": "PEP-101",
+      "name": "Carlos Mendoza",
+      "position": "Deputy Minister of Energy and Infrastructure",
+      "country": "Venezuela",
+      "risk_level": "High",
+      "family_members_or_associates": ["Maria Mendoza (Spouse)", "Carlos Mendoza Jr (Son)"],
+      "pep_category": "Foreign PEP",
+      "notes": "State procurement signatory; requires Senior Management Approval and source-of-wealth verification."
+    },
+    {
+      "id": "PEP-102",
+      "name": "Ibrahim Traore",
+      "position": "Director General of Customs & Border Revenue",
+      "country": "Mali",
+      "risk_level": "High",
+      "family_members_or_associates": ["Aminata Traore (Sister)"],
+      "pep_category": "Foreign PEP",
+      "notes": "Authority over tariff exemptions and import approvals; heightened TBML risk."
+    },
+    {
+      "id": "PEP-103",
+      "name": "Marcus Aurelius Vance",
+      "position": "Member of Parliament / Defense Committee",
+      "country": "United Kingdom",
+      "risk_level": "Medium",
+      "family_members_or_associates": [],
+      "pep_category": "Domestic PEP",
+      "notes": "Standard PEP monitoring; require enhanced ongoing scrutiny if high-value transactions occur."
+    }
+  ],
+  "high_risk_jurisdictions": {
+    "black_list": ["DPRK", "North Korea", "Iran", "Myanmar"],
+    "grey_list": ["Syria", "Yemen", "Haiti", "South Sudan", "Mali", "Nigeria", "Venezuela"]
+  }
+}
